@@ -2,10 +2,10 @@ import random
 import time
 nuwa = "パパスぬわ"
 nuwa_seed = list(nuwa)
-i =0
+i = 0
 try:
     while True:
-        ans = random.sample(nuwa_seed,len(nuwa_seed))
+        ans = random.sample(nuwa_seed, len(nuwa_seed))
         print("{}{}{}「{}{}ーー!!".format(*ans))
         time.sleep(0.2)
         i += 1
